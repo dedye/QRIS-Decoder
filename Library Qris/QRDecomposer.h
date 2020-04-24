@@ -10,7 +10,7 @@
 
 @interface QRDecomposer : NSObject
 
-+ (NSString *)getTagValueWithNSString:(NSString *)idValue withNSString:(NSString *)tagId;
++ (NSString *)getTagValue:(NSString *)idValue tagId:(NSString *)tagId;
 
 + (NSMutableDictionary *)doDecompose: (NSString *)qrdata;
 

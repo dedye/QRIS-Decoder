@@ -10,7 +10,7 @@
 
 @implementation QRDecomposer
 
-+ (NSString *)getTagValueWithNSString:(NSString *)idValue withNSString:(NSString *)tagId {
++ (NSString *)getTagValue:(NSString *)idValue tagId:(NSString *)tagId {
     int start = 0;
     long end = idValue.length;
     NSMutableDictionary *tagMap = [[NSMutableDictionary alloc] init];

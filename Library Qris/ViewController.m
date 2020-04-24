@@ -37,7 +37,7 @@
     NSString *countryCode = [map objectForKey:@"58"];
     NSLog(@"Country Code : %@",countryCode);
 
-    NSString *merchantId = [QRDecomposer getTagValueWithNSString:[map objectForKey:@"51"] withNSString:@"02"];
+    NSString *merchantId = [QRDecomposer getTagValue:[map objectForKey:@"51"] tagId:@"02"];
     NSLog(@"Merchant Id : %@",merchantId);
 
     NSString *merchantName = [map objectForKey:@"59"];
@@ -49,10 +49,10 @@
     NSString *merchantCity = [map objectForKey:@"60"];
     NSLog(@"Merchant City : %@",merchantCity);
 
-    NSString *merchantCriteria = [QRDecomposer getTagValueWithNSString:[map objectForKey:@"26"] withNSString:@"03"];
+    NSString *merchantCriteria = [QRDecomposer getTagValue:[map objectForKey:@"26"] tagId:@"03"];
     NSLog(@"Merchant Criteria : %@",merchantCriteria);
 
-    NSString *terminalId = [QRDecomposer getTagValueWithNSString:[map objectForKey:@"62"] withNSString:@"07"];
+    NSString *terminalId = [QRDecomposer getTagValue:[map objectForKey:@"62"] tagId:@"07"];
     NSLog(@"Terminal Id : %@",terminalId);
 }
 
