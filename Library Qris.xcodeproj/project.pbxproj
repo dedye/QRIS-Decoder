@@ -17,7 +17,6 @@
 		B5753ADF243984A8007395B5 /* Library_QrisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5753ADE243984A8007395B5 /* Library_QrisTests.m */; };
 		B5753AEA243984A8007395B5 /* Library_QrisUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5753AE9243984A8007395B5 /* Library_QrisUITests.m */; };
 		B57A3197243AF4D2004E7901 /* CRCCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = B57A3196243AF4D2004E7901 /* CRCCalculator.m */; };
-		B57A31A0243BEF76004E7901 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B57A319F243BEF67004E7901 /* libz.tbd */; };
 		B5812C72245180DB00FC6884 /* QRDecomposer.m in Sources */ = {isa = PBXBuildFile; fileRef = B5812C71245180DB00FC6884 /* QRDecomposer.m */; };
 /* End PBXBuildFile section */
 
@@ -59,7 +58,6 @@
 		B5753AEB243984A8007395B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B57A3195243AF4D2004E7901 /* CRCCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRCCalculator.h; sourceTree = "<group>"; };
 		B57A3196243AF4D2004E7901 /* CRCCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRCCalculator.m; sourceTree = "<group>"; };
-		B57A319F243BEF67004E7901 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		B5812C70245180DB00FC6884 /* QRDecomposer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRDecomposer.h; sourceTree = "<group>"; };
 		B5812C71245180DB00FC6884 /* QRDecomposer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRDecomposer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,7 +67,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B57A31A0243BEF76004E7901 /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,7 +151,6 @@
 		B57A319E243BEF66004E7901 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B57A319F243BEF67004E7901 /* libz.tbd */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
