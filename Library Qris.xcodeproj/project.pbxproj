@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5753AC4243984A3007395B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5753AC3243984A3007395B5 /* AppDelegate.m */; };
+		B5753AC7243984A3007395B5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5753AC6243984A3007395B5 /* SceneDelegate.m */; };
+		B5753ACA243984A3007395B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5753AC9243984A3007395B5 /* ViewController.m */; };
+		B5753ACD243984A3007395B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5753ACB243984A3007395B5 /* Main.storyboard */; };
+		B5753ACF243984A7007395B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5753ACE243984A7007395B5 /* Assets.xcassets */; };
+		B5753AD2243984A7007395B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5753AD0243984A7007395B5 /* LaunchScreen.storyboard */; };
+		B5753AD5243984A7007395B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5753AD4243984A7007395B5 /* main.m */; };
+		B5753ADF243984A8007395B5 /* Library_QrisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5753ADE243984A8007395B5 /* Library_QrisTests.m */; };
+		B5753AEA243984A8007395B5 /* Library_QrisUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5753AE9243984A8007395B5 /* Library_QrisUITests.m */; };
+		B57A3197243AF4D2004E7901 /* CRCCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = B57A3196243AF4D2004E7901 /* CRCCalculator.m */; };
+		B57A31A0243BEF76004E7901 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B57A319F243BEF67004E7901 /* libz.tbd */; };
+		B5812C72245180DB00FC6884 /* QRDecomposer.m in Sources */ = {isa = PBXBuildFile; fileRef = B5812C71245180DB00FC6884 /* QRDecomposer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5753ADB243984A8007395B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5753AB7243984A3007395B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5753ABE243984A3007395B5;
+			remoteInfo = "Library Qris";
+		};
+		B5753AE6243984A8007395B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5753AB7243984A3007395B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5753ABE243984A3007395B5;
+			remoteInfo = "Library Qris";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5753ABF243984A3007395B5 /* Library Qris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Library Qris.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5753AC2243984A3007395B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B5753AC3243984A3007395B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B5753AC5243984A3007395B5 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B5753AC6243984A3007395B5 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B5753AC8243984A3007395B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B5753AC9243984A3007395B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B5753ACC243984A3007395B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5753ACE243984A7007395B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5753AD1243984A7007395B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5753AD3243984A7007395B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5753AD4243984A7007395B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5753ADA243984A8007395B5 /* Library QrisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Library QrisTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5753ADE243984A8007395B5 /* Library_QrisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Library_QrisTests.m; sourceTree = "<group>"; };
+		B5753AE0243984A8007395B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5753AE5243984A8007395B5 /* Library QrisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Library QrisUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5753AE9243984A8007395B5 /* Library_QrisUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Library_QrisUITests.m; sourceTree = "<group>"; };
+		B5753AEB243984A8007395B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B57A3195243AF4D2004E7901 /* CRCCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRCCalculator.h; sourceTree = "<group>"; };
+		B57A3196243AF4D2004E7901 /* CRCCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRCCalculator.m; sourceTree = "<group>"; };
+		B57A319F243BEF67004E7901 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B5812C70245180DB00FC6884 /* QRDecomposer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRDecomposer.h; sourceTree = "<group>"; };
+		B5812C71245180DB00FC6884 /* QRDecomposer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRDecomposer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5753ABC243984A3007395B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57A31A0243BEF76004E7901 /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5753AD7243984A8007395B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5753AE2243984A8007395B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5753AB6243984A3007395B5 = {
+			isa = PBXGroup;
+			children = (
+				B5753AC1243984A3007395B5 /* Library Qris */,
+				B5753ADD243984A8007395B5 /* Library QrisTests */,
+				B5753AE8243984A8007395B5 /* Library QrisUITests */,
+				B5753AC0243984A3007395B5 /* Products */,
+				B57A319E243BEF66004E7901 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B5753AC0243984A3007395B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5753ABF243984A3007395B5 /* Library Qris.app */,
+				B5753ADA243984A8007395B5 /* Library QrisTests.xctest */,
+				B5753AE5243984A8007395B5 /* Library QrisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5753AC1243984A3007395B5 /* Library Qris */ = {
+			isa = PBXGroup;
+			children = (
+				B5753AC2243984A3007395B5 /* AppDelegate.h */,
+				B5753AC3243984A3007395B5 /* AppDelegate.m */,
+				B5753AC5243984A3007395B5 /* SceneDelegate.h */,
+				B5753AC6243984A3007395B5 /* SceneDelegate.m */,
+				B5753AC8243984A3007395B5 /* ViewController.h */,
+				B5753AC9243984A3007395B5 /* ViewController.m */,
+				B5753ACB243984A3007395B5 /* Main.storyboard */,
+				B5753ACE243984A7007395B5 /* Assets.xcassets */,
+				B5753AD0243984A7007395B5 /* LaunchScreen.storyboard */,
+				B5753AD3243984A7007395B5 /* Info.plist */,
+				B5753AD4243984A7007395B5 /* main.m */,
+				B57A3195243AF4D2004E7901 /* CRCCalculator.h */,
+				B57A3196243AF4D2004E7901 /* CRCCalculator.m */,
+				B5812C70245180DB00FC6884 /* QRDecomposer.h */,
+				B5812C71245180DB00FC6884 /* QRDecomposer.m */,
+			);
+			path = "Library Qris";
+			sourceTree = "<group>";
+		};
+		B5753ADD243984A8007395B5 /* Library QrisTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5753ADE243984A8007395B5 /* Library_QrisTests.m */,
+				B5753AE0243984A8007395B5 /* Info.plist */,
+			);
+			path = "Library QrisTests";
+			sourceTree = "<group>";
+		};
+		B5753AE8243984A8007395B5 /* Library QrisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5753AE9243984A8007395B5 /* Library_QrisUITests.m */,
+				B5753AEB243984A8007395B5 /* Info.plist */,
+			);
+			path = "Library QrisUITests";
+			sourceTree = "<group>";
+		};
+		B57A319E243BEF66004E7901 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B57A319F243BEF67004E7901 /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5753ABE243984A3007395B5 /* Library Qris */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5753AEE243984A8007395B5 /* Build configuration list for PBXNativeTarget "Library Qris" */;
+			buildPhases = (
+				B5753ABB243984A3007395B5 /* Sources */,
+				B5753ABC243984A3007395B5 /* Frameworks */,
+				B5753ABD243984A3007395B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Library Qris";
+			productName = "Library Qris";
+			productReference = B5753ABF243984A3007395B5 /* Library Qris.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5753AD9243984A8007395B5 /* Library QrisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5753AF1243984A8007395B5 /* Build configuration list for PBXNativeTarget "Library QrisTests" */;
+			buildPhases = (
+				B5753AD6243984A8007395B5 /* Sources */,
+				B5753AD7243984A8007395B5 /* Frameworks */,
+				B5753AD8243984A8007395B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5753ADC243984A8007395B5 /* PBXTargetDependency */,
+			);
+			name = "Library QrisTests";
+			productName = "Library QrisTests";
+			productReference = B5753ADA243984A8007395B5 /* Library QrisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5753AE4243984A8007395B5 /* Library QrisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5753AF4243984A8007395B5 /* Build configuration list for PBXNativeTarget "Library QrisUITests" */;
+			buildPhases = (
+				B5753AE1243984A8007395B5 /* Sources */,
+				B5753AE2243984A8007395B5 /* Frameworks */,
+				B5753AE3243984A8007395B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5753AE7243984A8007395B5 /* PBXTargetDependency */,
+			);
+			name = "Library QrisUITests";
+			productName = "Library QrisUITests";
+			productReference = B5753AE5243984A8007395B5 /* Library QrisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5753AB7243984A3007395B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Dedye Irawan";
+				TargetAttributes = {
+					B5753ABE243984A3007395B5 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					B5753AD9243984A8007395B5 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = B5753ABE243984A3007395B5;
+					};
+					B5753AE4243984A8007395B5 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = B5753ABE243984A3007395B5;
+					};
+				};
+			};
+			buildConfigurationList = B5753ABA243984A3007395B5 /* Build configuration list for PBXProject "Library Qris" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5753AB6243984A3007395B5;
+			productRefGroup = B5753AC0243984A3007395B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5753ABE243984A3007395B5 /* Library Qris */,
+				B5753AD9243984A8007395B5 /* Library QrisTests */,
+				B5753AE4243984A8007395B5 /* Library QrisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5753ABD243984A3007395B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5753AD2243984A7007395B5 /* LaunchScreen.storyboard in Resources */,
+				B5753ACF243984A7007395B5 /* Assets.xcassets in Resources */,
+				B5753ACD243984A3007395B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5753AD8243984A8007395B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5753AE3243984A8007395B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5753ABB243984A3007395B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5753ACA243984A3007395B5 /* ViewController.m in Sources */,
+				B57A3197243AF4D2004E7901 /* CRCCalculator.m in Sources */,
+				B5753AC4243984A3007395B5 /* AppDelegate.m in Sources */,
+				B5812C72245180DB00FC6884 /* QRDecomposer.m in Sources */,
+				B5753AD5243984A7007395B5 /* main.m in Sources */,
+				B5753AC7243984A3007395B5 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5753AD6243984A8007395B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5753ADF243984A8007395B5 /* Library_QrisTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5753AE1243984A8007395B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5753AEA243984A8007395B5 /* Library_QrisUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5753ADC243984A8007395B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5753ABE243984A3007395B5 /* Library Qris */;
+			targetProxy = B5753ADB243984A8007395B5 /* PBXContainerItemProxy */;
+		};
+		B5753AE7243984A8007395B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5753ABE243984A3007395B5 /* Library Qris */;
+			targetProxy = B5753AE6243984A8007395B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5753ACB243984A3007395B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5753ACC243984A3007395B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5753AD0243984A7007395B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5753AD1243984A7007395B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5753AEC243984A8007395B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B5753AED243984A8007395B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5753AEF243984A8007395B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Library Qris/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DOKU.Library-Qris";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5753AF0243984A8007395B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Library Qris/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DOKU.Library-Qris";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B5753AF2243984A8007395B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Library QrisTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DOKU.Library-QrisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Library Qris.app/Library Qris";
+			};
+			name = Debug;
+		};
+		B5753AF3243984A8007395B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Library QrisTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DOKU.Library-QrisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Library Qris.app/Library Qris";
+			};
+			name = Release;
+		};
+		B5753AF5243984A8007395B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Library QrisUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DOKU.Library-QrisUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Library Qris";
+			};
+			name = Debug;
+		};
+		B5753AF6243984A8007395B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Library QrisUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DOKU.Library-QrisUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Library Qris";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5753ABA243984A3007395B5 /* Build configuration list for PBXProject "Library Qris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5753AEC243984A8007395B5 /* Debug */,
+				B5753AED243984A8007395B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5753AEE243984A8007395B5 /* Build configuration list for PBXNativeTarget "Library Qris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5753AEF243984A8007395B5 /* Debug */,
+				B5753AF0243984A8007395B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5753AF1243984A8007395B5 /* Build configuration list for PBXNativeTarget "Library QrisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5753AF2243984A8007395B5 /* Debug */,
+				B5753AF3243984A8007395B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5753AF4243984A8007395B5 /* Build configuration list for PBXNativeTarget "Library QrisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5753AF5243984A8007395B5 /* Debug */,
+				B5753AF6243984A8007395B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5753AB7243984A3007395B5 /* Project object */;
+}
